@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Project</title>
+  <link rel="stylesheet" href="styles.css">
+
+<body>
+  <div id="img_container">
+    <img src="trolley_before_fork.svg" id="image">
+  </div>
+  <div id="container">
+    <div id="text"></div>
+    <div class="controls">
+      <span class="arrow" id="prev">&#8592;</span>
+      <span class="arrow" id="next">&#8594;</span>
+      <span class="arrow" id="doNothingButton"></span>
+    </div>
+  </div>
+
+  <script>
+    const paragraphs = [
+      `Imagine you come across a forked train track, with 5 people strapped to one fork of the tracks, and 
+      one person strapped to the other forked track. You observe an oncoming train that will surely kill whomever it runs across.
+      There is a switch capable of diverting the train to either fork, currently set towards the line of 5 people`,
+      `Do you flip the switch and divert the train towards the singular person, or do you let the train run its course towards the 
+      five people?`,
+      `You have chosen to sacrifice one person to save five people. This decision is morally justified from a consequentialist perspective
+      because it results in the least total harm and maximizes overall well-being. Consequentialism holds that 
+      the morality of an action depends entirely on its consequences, not on intentions or inherent rules. By diverting the train, one person 
+      dies instead of five, producing a net saving of four lives. While this choice involves directly causing harm to one individual, consequentialism 
+      would argue that the greater good outweighs that harm. The moral weight of preventing the deaths of five people is seen as more significant, while 
+      the wrongness of intentionally redirecting the train is essentially ignored. In this framework, the ethically right action is the one that produces the most favorable balance 
+      of good over bad outcomes.`,
+      `You have chosen to let the five people die. This decision is morally justified from a deontologist perspective because it refrains from actively committing 
+      murder. Deontologists argue that certain actions such as intentionally killing an innocent person are inherently wrong, regardless of the outcomes 
+      they produce. By refusing to pull the switch, you avoid becoming the direct cause of someone’s death. In this view, your moral duty is to refrain from 
+      committing harm, even if inaction leads to a greater number of deaths. Intervening would require actively deciding to kill one person, which violates the ethical 
+      principle that individuals must never be used merely as a means to an end. Therefore, from a deontological standpoint, it is morally preferable to allow the 
+      train to continue on its course rather than to deliberately cause the death of another because the rightness of an action 
+      depends on following moral rules, not on calculating outcomes. But wait, refusing to act here is still a choice. By not pulling the lever, you have passed up
+      on the opportunity to save 5 people. Isn't letting someone die and causing someone to die functionally the same? Not under classical deontology. The duty to do good
+      things is not significant as the duty to not do bad things. Actively causing harm violates a moral duty while allowing harm does not necessarily do so, especially if
+      your only other option is to voluntarily cause harm.`,
+    ];
+
+    let index = 0;
+    const textElement = document.getElementById("text");
+
+    function updateText() {
+        textElement.textContent = paragraphs[index];
+        const prevButton = document.getElementById("prev");
+        const nextButton = document.getElementById("next");
+        const doNothingButton = document.getElementById("doNothingButton");
+        doNothingButton.textContent = "Don't Interfere";
+        doNothingButton.style.display = 'none';
+
+        if (index === 0) {
+            prevButton.style.opacity = "0.3";
+            prevButton.style.pointerEvents = "none";
+            document.getElementById("image").src = "trolley_before_fork.svg";
+        } else {
+            prevButton.style.opacity = "1";
+            prevButton.style.pointerEvents = "auto";
+        }
+
+        if (index === 1) {
+            doNothingButton.style.display = 'block';
+            doNothingButton.style.opacity = "1";
+            doNothingButton.style.pointerEvents = "auto";
+            nextButton.textContent = "Divert the Train";
+            document.getElementById("image").src = "trolley_before_fork.svg";
+        } else {
+            nextButton.textContent = "→";
+        }
+
+        if (index === 2) {
+            document.getElementById("image").src = "trolley_diverted.svg";
+            nextButton.style.opacity = "0.3";
+            nextButton.style.pointerEvents = "none";
+        }
+
+        if (index === 3) {
+            nextButton.style.opacity = "0.3";
+            nextButton.style.pointerEvents = "none";
+            document.getElementById("image").src = "trolley_straight.svg";
+        } else if (index !== 2) {
+            nextButton.style.opacity = "1";
+            nextButton.style.pointerEvents = "auto";
+        }
+    }
+
+
+    document.getElementById("prev").addEventListener("click", () => {
+      if (index === 3) index--;
+      index = (index - 1 + paragraphs.length) % paragraphs.length;
+      updateText();
+    });
+
+    document.getElementById("next").addEventListener("click", () => {
+      index = (index + 1) % paragraphs.length;
+      updateText();
+    });
+
+    document.getElementById("doNothingButton").addEventListener("click", () => {
+      index = (index + 2) % paragraphs.length;
+      updateText();
+    });
+
+    updateText();
+  </script>
+</body>
+</html>

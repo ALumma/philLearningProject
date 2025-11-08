@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+    <title>Trolley approaching the fork</title>
+    <desc>Minimalist trolley problem diagram: train before reaching the switch</desc>
+    <rect x="0" y="0" width="800" height="400" fill="#fff"/><line x1="110" y1="232" x2="110" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="138" y1="232" x2="138" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="166" y1="232" x2="166" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="194" y1="232" x2="194" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="222" y1="232" x2="222" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="250" y1="232" x2="250" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="278" y1="232" x2="278" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="306" y1="232" x2="306" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="334" y1="232" x2="334" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="362" y1="232" x2="362" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="390" y1="232" x2="390" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="418" y1="232" x2="418" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="446" y1="232" x2="446" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="474" y1="232" x2="474" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="502" y1="232" x2="502" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="530" y1="232" x2="530" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="558" y1="232" x2="558" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="586" y1="232" x2="586" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="614" y1="232" x2="614" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="642" y1="232" x2="642" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="670" y1="232" x2="670" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="698" y1="232" x2="698" y2="268" stroke="#777" stroke-width="2"/>
+<line x1="418.3" y1="234.3" x2="421.7" y2="245.7" stroke="#777" stroke-width="2"/>
+<line x1="439.7" y1="227.8" x2="443.2" y2="239.3" stroke="#777" stroke-width="2"/>
+<line x1="461.1" y1="221.4" x2="464.6" y2="232.9" stroke="#777" stroke-width="2"/>
+<line x1="482.6" y1="215.0" x2="486.0" y2="226.5" stroke="#777" stroke-width="2"/>
+<line x1="504.0" y1="208.5" x2="507.4" y2="220.0" stroke="#777" stroke-width="2"/>
+<line x1="525.4" y1="202.1" x2="528.9" y2="213.6" stroke="#777" stroke-width="2"/>
+<line x1="546.8" y1="195.7" x2="550.3" y2="207.2" stroke="#777" stroke-width="2"/>
+<line x1="568.3" y1="189.3" x2="571.7" y2="200.7" stroke="#777" stroke-width="2"/>
+<line x1="589.7" y1="182.8" x2="593.2" y2="194.3" stroke="#777" stroke-width="2"/>
+<line x1="611.1" y1="176.4" x2="614.6" y2="187.9" stroke="#777" stroke-width="2"/>
+<line x1="632.6" y1="170.0" x2="636.0" y2="181.5" stroke="#777" stroke-width="2"/>
+<line x1="654.0" y1="163.5" x2="657.4" y2="175.0" stroke="#777" stroke-width="2"/>
+<line x1="675.4" y1="157.1" x2="678.9" y2="168.6" stroke="#777" stroke-width="2"/>
+<line x1="696.8" y1="150.7" x2="700.3" y2="162.2" stroke="#777" stroke-width="2"/>
+<line x1="718.3" y1="144.3" x2="721.7" y2="155.7" stroke="#777" stroke-width="2"/><line x1="100" y1="240" x2="720" y2="240" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<line x1="100" y1="260" x2="720" y2="260" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<line x1="422.87347885566345" y1="249.5782628522115" x2="722.8734788556635" y2="159.5782628522115" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<line x1="417.12652114433655" y1="230.4217371477885" x2="717.1265211443365" y2="140.4217371477885" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<line x1="400" y1="250" x2="422" y2="250" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<line x1="400" y1="250" x2="420" y2="238" stroke="#111" stroke-width="4" stroke-linecap="round"/><circle cx="540" cy="210" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="540" y1="215.4" x2="540" y2="228.9" stroke="#111" stroke-width="2"/>
+<line x1="531.9" y1="220.8" x2="548.1" y2="220.8" stroke="#111" stroke-width="2"/>
+<line x1="540" y1="228.9" x2="533.52" y2="237.0" stroke="#111" stroke-width="2"/>
+<line x1="540" y1="228.9" x2="546.48" y2="237.0" stroke="#111" stroke-width="2"/><circle cx="575" cy="210" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="575" y1="215.4" x2="575" y2="228.9" stroke="#111" stroke-width="2"/>
+<line x1="566.9" y1="220.8" x2="583.1" y2="220.8" stroke="#111" stroke-width="2"/>
+<line x1="575" y1="228.9" x2="568.52" y2="237.0" stroke="#111" stroke-width="2"/>
+<line x1="575" y1="228.9" x2="581.48" y2="237.0" stroke="#111" stroke-width="2"/><circle cx="610" cy="210" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="610" y1="215.4" x2="610" y2="228.9" stroke="#111" stroke-width="2"/>
+<line x1="601.9" y1="220.8" x2="618.1" y2="220.8" stroke="#111" stroke-width="2"/>
+<line x1="610" y1="228.9" x2="603.52" y2="237.0" stroke="#111" stroke-width="2"/>
+<line x1="610" y1="228.9" x2="616.48" y2="237.0" stroke="#111" stroke-width="2"/><circle cx="645" cy="210" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="645" y1="215.4" x2="645" y2="228.9" stroke="#111" stroke-width="2"/>
+<line x1="636.9" y1="220.8" x2="653.1" y2="220.8" stroke="#111" stroke-width="2"/>
+<line x1="645" y1="228.9" x2="638.52" y2="237.0" stroke="#111" stroke-width="2"/>
+<line x1="645" y1="228.9" x2="651.48" y2="237.0" stroke="#111" stroke-width="2"/><circle cx="680" cy="210" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="680" y1="215.4" x2="680" y2="228.9" stroke="#111" stroke-width="2"/>
+<line x1="671.9" y1="220.8" x2="688.1" y2="220.8" stroke="#111" stroke-width="2"/>
+<line x1="680" y1="228.9" x2="673.52" y2="237.0" stroke="#111" stroke-width="2"/>
+<line x1="680" y1="228.9" x2="686.48" y2="237.0" stroke="#111" stroke-width="2"/><circle cx="600" cy="125" r="5.4" stroke="#111" stroke-width="2" fill="none"/>
+<line x1="600" y1="130.4" x2="600" y2="143.9" stroke="#111" stroke-width="2"/>
+<line x1="591.9" y1="135.8" x2="608.1" y2="135.8" stroke="#111" stroke-width="2"/>
+<line x1="600" y1="143.9" x2="593.52" y2="152.0" stroke="#111" stroke-width="2"/>
+<line x1="600" y1="143.9" x2="606.48" y2="152.0" stroke="#111" stroke-width="2"/><g transform="translate(250,250) rotate(0)"><rect x="-30.0" y="-15.0" width="60" height="30" rx="6" ry="6" stroke="#111" stroke-width="2" fill="#ddd"/><polygon points="30.0,0 18.0,-8 18.0,8" stroke="#111" stroke-width="2" fill="#ddd"/><circle cx="-18" cy="15.0" r="4" stroke="#111" stroke-width="2" fill="none"/><circle cx="18" cy="15.0" r="4" stroke="#111" stroke-width="2" fill="none"/></g><circle cx="300" cy="320" r="6" stroke="#111" stroke-width="2" fill="none"/><line x1="300" y1="320" x2="338.6" y2="330.4" stroke="#111" stroke-width="4" stroke-linecap="round"/><text x="284" y="346" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111">switch</text><text x="30" y="40" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111">Train approaching the fork (decision not yet made)</text><text x="700" y="200" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">5</text><text x="620" y="115" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#111">1</text><rect x="5" y="5" width="790" height="390" fill="none" stroke="#111" stroke-width="2"/>
+</svg>
